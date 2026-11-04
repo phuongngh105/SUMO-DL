@@ -1,0 +1,12 @@
+<configuration>
+  <!-- Mang + luu luong dung luc train. Chay thuan: den chay chuong trinh goc cua mang.
+       De dieu khien den bang model best hoac last: dung script run_trained.py (xem huong dan trong file do) -->
+  <input>
+    <net-file value="../test2/test2.net.xml"/>
+    <route-files value="../test2/test2.rou.xml"/>
+    <additional-files value="../test2/test2.add.xml"/>
+  </input>
+  <time><begin value="0"/><end value="7200"/></time>
+  <processing><time-to-teleport value="-1"/><waiting-time-memory value="300"/></processing>
+  <output><tripinfo-output value="trained_tripinfo.xml"/><statistic-output value="trained_stats.xml"/></output>
+</configuration>

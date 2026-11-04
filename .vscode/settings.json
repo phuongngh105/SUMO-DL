@@ -1,0 +1,7 @@
+{
+  "terminal.integrated.env.windows": {
+    "SUMO_HOME": "${workspaceFolder}\\.venv\\Lib\\site-packages\\sumo",
+    "PATH": "${workspaceFolder}\\.venv\\Lib\\site-packages\\sumo\\bin;${env:PATH}"
+  },
+  "python.defaultInterpreterPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe"
+}

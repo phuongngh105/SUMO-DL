@@ -1,0 +1,58 @@
+{
+  "model": "phase-slot shared (topology independent)",
+  "feat_dim": 8,
+  "trained_on": {
+    "tls_ids": [
+      "clusterJ14_J15_J3_J4",
+      "clusterJ16_J18_J7_J8"
+    ],
+    "outer_in": [
+      "-E0",
+      "-E2",
+      "-E4",
+      "E0",
+      "E1",
+      "E3"
+    ],
+    "outer_out": [
+      "-E0.124",
+      "-E1",
+      "-E3",
+      "E0.69",
+      "E2",
+      "E4"
+    ],
+    "greens": {
+      "clusterJ14_J15_J3_J4": [
+        0,
+        2,
+        4
+      ],
+      "clusterJ16_J18_J7_J8": [
+        0,
+        2,
+        4
+      ]
+    }
+  },
+  "delta_t": 10,
+  "yellow": 3,
+  "min_green": 5,
+  "max_green": 60,
+  "wt_memory": 300,
+  "episode_len": 7200,
+  "stuck": {
+    "w4": 2.0,
+    "stuck_wait": 60.0,
+    "reward_clip": 10.0,
+    "stuck_cap": 30.0
+  },
+  "episodes": 200,
+  "best_episode": 135,
+  "best_eval_awt": 12.990011020962916,
+  "weights": {
+    "best": "best.pt",
+    "last": "last.pt"
+  },
+  "sumocfg": "trained.sumocfg"
+}

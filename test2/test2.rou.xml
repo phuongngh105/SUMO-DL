@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-11-02T17:58:04.998393+07:00 by Eclipse SUMO netedit 1.28.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="t_0" vClass="motorcycle"/>
+    <vType id="t_1" vClass="bus"/>
+    <vType id="t_2"/>
+    <vTypeDistribution id="ko_tac">
+        <vType refId="t_0" probability="0.72"/>
+        <vType refId="DEFAULT_VEHTYPE" probability="0.18"/>
+        <vType refId="t_1" probability="0.10"/>
+    </vTypeDistribution>
+    <vTypeDistribution id="td_0">
+        <vType refId="DEFAULT_VEHTYPE" probability="0.38"/>
+        <vType refId="t_0" probability="0.52"/>
+        <vType refId="t_1" probability="0.10"/>
+    </vTypeDistribution>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <flow id="f_0" type="td_0" begin="0.00" end="3600.00" perHour="1500.00" from="E0" to="E0.69" via="E0.25"/>
+    <flow id="f_1" type="td_0" begin="0.00" end="3600.00" perHour="200.00" from="-E0" to="E2" via="-E0.93"/>
+    <flow id="f_10" type="td_0" begin="0.00" end="3600.00" perHour="150.00" from="E3" to="-E0.124" via="-E0.93"/>
+    <flow id="f_11" type="td_0" begin="0.00" end="3600.00" perHour="150.00" from="-E2" to="E0.69" via="E0.25"/>
+    <flow id="f_12" type="td_0" begin="0.00" end="3600.00" perHour="150.00" from="E1" to="E0.69" via="E0.25"/>
+    <flow id="f_13" type="td_0" begin="0.00" end="3600.00" perHour="150.00" from="E1" to="-E0.124"/>
+    <flow id="f_14" type="td_0" begin="0.00" end="3600.00" perHour="150.00" from="E3" to="E0.69"/>
+    <flow id="f_15" type="td_0" begin="0.00" end="3600.00" perHour="150.00" from="-E4" to="E0.69"/>
+    <flow id="f_16" type="td_0" begin="0.00" end="3600.00" perHour="150.00" from="-E2" to="-E0.124"/>
+    <flow id="f_17" type="td_0" begin="0.00" end="3600.00" perHour="60.00" from="-E2" to="-E1"/>
+    <flow id="f_18" type="td_0" begin="0.00" end="3600.00" perHour="60.00" from="E1" to="E2"/>
+    <flow id="f_19" type="td_0" begin="0.00" end="3600.00" perHour="60.00" from="E3" to="E4"/>
+    <flow id="f_2" type="td_0" begin="0.00" end="3600.00" perHour="200.00" from="-E0" to="E4"/>
+    <flow id="f_20" type="td_0" begin="0.00" end="3600.00" perHour="60.00" from="-E4" to="-E3"/>
+    <flow id="f_22" type="td_0" begin="0.00" end="3600.00" perHour="200.00" from="E0" to="E2"/>
+    <flow id="f_3" type="td_0" begin="0.00" end="3600.00" perHour="1500.00" from="-E0" to="-E0.124" via="-E0.93"/>
+    <flow id="f_4" type="td_0" begin="0.00" end="3600.00" perHour="200.00" from="-E0" to="-E1" via="-E0.93"/>
+    <flow id="f_5" type="td_0" begin="0.00" end="3600.00" perHour="200.00" from="E0" to="-E1"/>
+    <flow id="f_6" type="td_0" begin="0.00" end="3600.00" perHour="200.00" from="E0" to="-E3" via="E0.25"/>
+    <flow id="f_7" type="td_0" begin="0.00" end="3600.00" perHour="200.00" from="E0" to="E4" via="E0.25"/>
+    <flow id="f_8" type="td_0" begin="0.00" end="3600.00" perHour="150.00" from="-E4" to="-E0.124" via="-E0.93"/>
+    <flow id="f_9" type="td_0" begin="0.00" end="3600.00" perHour="200.00" from="-E0" to="-E3"/>
+    <flow id="f_37" type="ko_tac" begin="3600.00" end="7200.00" perHour="160.00" from="-E4" to="-E0.124" via="-E0.93"/>
+    <flow id="f_44" type="ko_tac" begin="3600.00" end="7200.00" perHour="900.00" from="-E0" to="-E0.124" via="-E0.93"/>
+    <flow id="f_45" type="ko_tac" begin="3600.00" end="7200.00" perHour="900.00" from="E0" to="E0.69" via="E0.25"/>
+    <flow id="f_46" type="ko_tac" begin="3600.00" end="7200.00" perHour="160.00" from="-E0" to="-E3"/>
+    <flow id="f_47" type="ko_tac" begin="3600.00" end="7200.00" perHour="160.00" from="-E0" to="E4"/>
+    <flow id="f_48" type="ko_tac" begin="3600.00" end="7200.00" perHour="160.00" from="-E0" to="E2" via="-E0.93"/>
+    <flow id="f_49" type="ko_tac" begin="3600.00" end="7200.00" perHour="160.00" from="-E0" to="-E1" via="-E0.93"/>
+    <flow id="f_50" type="ko_tac" begin="3600.00" end="7200.00" perHour="160.00" from="E0" to="E2"/>
+    <flow id="f_51" type="ko_tac" begin="3600.00" end="7200.00" perHour="160.00" from="E0" to="-E1"/>
+    <flow id="f_52" type="ko_tac" begin="3600.00" end="7200.00" perHour="160.00" from="E0" to="-E3" via="E0.25"/>
+    <flow id="f_53" type="ko_tac" begin="3600.00" end="7200.00" perHour="160.00" from="E0" to="E4" via="E0.25"/>
+    <flow id="f_54" type="ko_tac" begin="3600.00" end="7200.00" perHour="160.00" from="-E2" to="-E0.124"/>
+    <flow id="f_55" type="ko_tac" begin="3600.00" end="7200.00" perHour="160.00" from="-E2" to="E0.69" via="E0.25"/>
+    <flow id="f_56" type="ko_tac" begin="3600.00" end="7200.00" perHour="160.00" from="E3" to="-E0.124" via="-E0.93"/>
+    <flow id="f_57" type="ko_tac" begin="3600.00" end="7200.00" perHour="160.00" from="E3" to="E0.69"/>
+    <flow id="f_58" type="ko_tac" begin="3600.00" end="7200.00" perHour="160.00" from="E1" to="-E0.124"/>
+    <flow id="f_59" type="ko_tac" begin="3600.00" end="7200.00" perHour="160.00" from="E1" to="E0.69" via="E0.25"/>
+    <flow id="f_60" type="ko_tac" begin="3600.00" end="7200.00" perHour="160.00" from="-E4" to="-E0.124" via="-E0.93"/>
+    <flow id="f_61" type="ko_tac" begin="3600.00" end="7200.00" perHour="160.00" from="-E2" to="-E1"/>
+    <flow id="f_62" type="ko_tac" begin="3600.00" end="7200.00" perHour="160.00" from="E3" to="E4"/>
+    <flow id="f_63" type="ko_tac" begin="3600.00" end="7200.00" perHour="160.00" from="E1" to="E2"/>
+    <flow id="f_64" type="ko_tac" begin="3600.00" end="7200.00" perHour="160.00" from="-E4" to="-E3"/>
+</routes>

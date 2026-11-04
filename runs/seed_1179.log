@@ -1,0 +1,40 @@
+TU NHAN: 2 den dieu khien: clusterJ14_J15_J3_J4 (pha xanh [0, 2, 4], 12 lan vao, vang tu tlLogic); clusterJ16_J18_J7_J8 (pha xanh [0, 2, 4], 12 lan vao, vang tu tlLogic)
+canh bien do reward: vao=['-E0', '-E2', '-E4', 'E0', 'E1', 'E3'] | ra=['-E0.124', '-E1', '-E3', 'E0.69', 'E2', 'E4']
+luu luong TU FILE ROUTE: 44 flow, loai xe ['ko_tac', 'td_0'], jitter luu luong +-0.1, ti le loai xe +-0.0, Poisson
+  tong luu luong theo giai doan (xe/gio): 0-3600s: 5977 | 3600-7200s: 5003
+ep   0 | AWT  188.2s | AQL  2.54 | v  0.72 m/s | vao  3123 | den  2957 | thoat  1640 | con  166 | tele   0 | ket 82.9 (max 4280s) | phat 17.81 | 409s | EVAL AWT   25.3s ket  0.3 diem 1.431  <- BEST moi
+ep   1 | AWT   67.4s | AQL  1.56 | v  1.34 m/s | vao  6152 | den  6038 | thoat  3186 | con  114 | tele   0 | ket  9.4 (max  267s) | phat  2.02 | 375s | EVAL AWT   29.1s ket  5.6 diem 24.324
+ep   2 | AWT   62.0s | AQL  1.46 | v  1.50 m/s | vao  6470 | den  6354 | thoat  3404 | con  116 | tele   0 | ket  7.8 (max  277s) | phat  1.40 | 416s | EVAL AWT   50.6s ket 16.5 diem 71.093
+ep   3 | AWT   48.2s | AQL  1.30 | v  1.68 m/s | vao  6968 | den  6870 | thoat  3647 | con   98 | tele   0 | ket  3.2 (max  167s) | phat  0.45 | 432s | EVAL AWT   51.7s ket 17.4 diem 74.876
+ep   4 | AWT   37.1s | AQL  1.19 | v  1.89 m/s | vao  7844 | den  7756 | thoat  4158 | con   88 | tele   0 | ket  0.7 (max  123s) | phat  0.09 | 495s | EVAL AWT   32.5s ket  8.0 diem 34.737
+Interrupt signal received, trying to exit gracefully.
+Traceback (most recent call last):
+  File "D:\Project\SUMO-DL\Train\train_ppo_tsc.py", line 1062, in <module>
+    main()
+    ~~~~^^
+  File "D:\Project\SUMO-DL\Train\train_ppo_tsc.py", line 1002, in main
+    eval_rows = evaluate(env, net, eval_seeds)
+  File "D:\Project\SUMO-DL\Train\train_ppo_tsc.py", line 582, in evaluate
+    return [run_episode(env, net, greedy=True, fixed=fixed, seed=s)[0] for s in seeds]
+            ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\SUMO-DL\Train\train_ppo_tsc.py", line 533, in run_episode
+    obs, rew, done, vaver = env.step(actions)
+                            ~~~~~~~~^^^^^^^^^
+  File "D:\Project\SUMO-DL\Train\train_ppo_tsc.py", line 448, in step
+    obs = {tl: self.observe(tl) for tl in self.tl_ids}
+               ~~~~~~~~~~~~^^^^
+  File "D:\Project\SUMO-DL\Train\train_ppo_tsc.py", line 317, in observe
+    length = traci.lane.getLength(ln)
+  File "C:\Program Files (x86)\SUMO\tools\traci\_lane.py", line 68, in getLength
+    return self._getUniversal(tc.VAR_LENGTH, laneID)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files (x86)\SUMO\tools\traci\domain.py", line 152, in _getUniversal
+    return _parse(self._retValFunc, varID, self._getCmd(varID, objectID, format, *values))
+                                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files (x86)\SUMO\tools\traci\domain.py", line 160, in _getCmd
+    objectID = r.readString()
+  File "C:\Program Files (x86)\SUMO\tools\traci\storage.py", line 71, in readString
+    return str(s)
+KeyboardInterrupt
+Error: tcpip::Socket::recvAndCheck @ recv: peer shutdown
+Quitting (on error).

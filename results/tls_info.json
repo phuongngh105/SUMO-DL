@@ -1,0 +1,245 @@
+{
+  "net_file": "test2.net.xml",
+  "tls": {
+    "clusterJ14_J15_J3_J4": {
+      "program": "0",
+      "n_links": 18,
+      "cycle": 90.0,
+      "phases": [
+        {
+          "index": 0,
+          "duration": 38.0,
+          "state": "OrrrOGGGuOrrrOGGGu"
+        },
+        {
+          "index": 1,
+          "duration": 3.0,
+          "state": "rrrryyyygrrrryyyyg"
+        },
+        {
+          "index": 2,
+          "duration": 6.0,
+          "state": "rrrrrrrrGrrrrrrrrG"
+        },
+        {
+          "index": 3,
+          "duration": 3.0,
+          "state": "rrrrrrrryrrrrrrrry"
+        },
+        {
+          "index": 4,
+          "duration": 37.0,
+          "state": "GGGgrrrrrGGGgrrrrr"
+        },
+        {
+          "index": 5,
+          "duration": 3.0,
+          "state": "yyyyrrrrryyyyrrrrr"
+        }
+      ],
+      "green": [
+        0,
+        2,
+        4
+      ],
+      "yellow_of": {
+        "0": 1,
+        "2": 3,
+        "4": 5
+      },
+      "served": {
+        "0": [
+          "-E0.93_0->-E0.124_0",
+          "-E0.93_1->-E0.124_1",
+          "-E0.93_2->-E0.124_2",
+          "E0_0->E0.25_0",
+          "E0_1->E0.25_1",
+          "E0_2->E0.25_2"
+        ],
+        "2": [
+          "-E0.93_3->-E1_1",
+          "E0_3->E2_1"
+        ],
+        "4": [
+          "-E2_0->-E0.124_0",
+          "-E2_0->-E1_0",
+          "-E2_1->-E1_1",
+          "-E2_1->E0.25_3",
+          "E1_0->E0.25_0",
+          "E1_0->E2_0",
+          "E1_1->E2_1",
+          "E1_1->-E0.124_3"
+        ]
+      },
+      "approach_lanes": [
+        "-E2_0",
+        "-E2_1",
+        "-E0.93_0",
+        "-E0.93_1",
+        "-E0.93_2",
+        "-E0.93_3",
+        "E1_0",
+        "E1_1",
+        "E0_0",
+        "E0_1",
+        "E0_2",
+        "E0_3"
+      ],
+      "lane_length": {
+        "-E2_0": 77.06,
+        "-E2_1": 77.06,
+        "-E0.93_0": 25.45,
+        "-E0.93_1": 25.45,
+        "-E0.93_2": 25.45,
+        "-E0.93_3": 25.45,
+        "E1_0": 59.76,
+        "E1_1": 59.76,
+        "E0_0": 24.76,
+        "E0_1": 24.76,
+        "E0_2": 24.76,
+        "E0_3": 24.76
+      },
+      "entry_edges": [
+        "-E2",
+        "E1",
+        "E0"
+      ],
+      "exit_edges": [
+        "-E0.124",
+        "-E1",
+        "E2"
+      ],
+      "neighbors": [
+        "clusterJ16_J18_J7_J8"
+      ]
+    },
+    "clusterJ16_J18_J7_J8": {
+      "program": "0",
+      "n_links": 18,
+      "cycle": 90.0,
+      "phases": [
+        {
+          "index": 0,
+          "duration": 38.0,
+          "state": "OrrrOGGGuOrrrOGGGu"
+        },
+        {
+          "index": 1,
+          "duration": 3.0,
+          "state": "rrrryyyygrrrryyyyg"
+        },
+        {
+          "index": 2,
+          "duration": 6.0,
+          "state": "rrrrrrrrGrrrrrrrrG"
+        },
+        {
+          "index": 3,
+          "duration": 3.0,
+          "state": "rrrrrrrryrrrrrrrry"
+        },
+        {
+          "index": 4,
+          "duration": 37.0,
+          "state": "GGGgrrrrrGGGgrrrrr"
+        },
+        {
+          "index": 5,
+          "duration": 3.0,
+          "state": "yyyyrrrrryyyyrrrrr"
+        }
+      ],
+      "green": [
+        0,
+        2,
+        4
+      ],
+      "yellow_of": {
+        "0": 1,
+        "2": 3,
+        "4": 5
+      },
+      "served": {
+        "0": [
+          "-E0_0->-E0.93_0",
+          "-E0_1->-E0.93_1",
+          "-E0_2->-E0.93_2",
+          "E0.25_0->E0.69_0",
+          "E0.25_1->E0.69_1",
+          "E0.25_2->E0.69_2"
+        ],
+        "2": [
+          "-E0_3->E4_1",
+          "E0.25_3->-E3_1"
+        ],
+        "4": [
+          "E3_0->-E0.93_0",
+          "E3_0->E4_0",
+          "E3_1->E4_1",
+          "E3_1->E0.69_3",
+          "-E4_0->E0.69_0",
+          "-E4_0->-E3_0",
+          "-E4_1->-E3_1",
+          "-E4_1->-E0.93_3"
+        ]
+      },
+      "approach_lanes": [
+        "E3_0",
+        "E3_1",
+        "-E0_0",
+        "-E0_1",
+        "-E0_2",
+        "-E0_3",
+        "-E4_0",
+        "-E4_1",
+        "E0.25_0",
+        "E0.25_1",
+        "E0.25_2",
+        "E0.25_3"
+      ],
+      "lane_length": {
+        "E3_0": 79.98,
+        "E3_1": 79.98,
+        "-E0_0": 79.97,
+        "-E0_1": 79.97,
+        "-E0_2": 79.97,
+        "-E0_3": 79.97,
+        "-E4_0": 57.46,
+        "-E4_1": 57.46,
+        "E0.25_0": 25.41,
+        "E0.25_1": 25.41,
+        "E0.25_2": 25.41,
+        "E0.25_3": 25.41
+      },
+      "entry_edges": [
+        "E3",
+        "-E0",
+        "-E4"
+      ],
+      "exit_edges": [
+        "E4",
+        "E0.69",
+        "-E3"
+      ],
+      "neighbors": [
+        "clusterJ14_J15_J3_J4"
+      ]
+    }
+  },
+  "outer_in": [
+    "-E2",
+    "E1",
+    "E0",
+    "E3",
+    "-E0",
+    "-E4"
+  ],
+  "outer_out": [
+    "-E0.124",
+    "-E1",
+    "E2",
+    "E4",
+    "E0.69",
+    "-E3"
+  ]
+}
