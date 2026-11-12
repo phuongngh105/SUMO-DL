@@ -48,8 +48,8 @@
     "stuck_cap": 30.0
   },
   "episodes": 200,
-  "best_episode": 135,
-  "best_eval_awt": 12.990011020962916,
+  "best_episode": 131,
+  "best_eval_awt": 22.283787846582715,
   "weights": {
     "best": "best.pt",
     "last": "last.pt"

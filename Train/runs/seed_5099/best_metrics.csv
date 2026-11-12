@@ -1,0 +1,79 @@
+﻿nhom,chi_so,eval_seed_10000,eval_seed_10001,eval_seed_10002,eval_TB,eval_std,train_ep1,baseline_TB
+meta,best_episode,,,,1,,,
+meta,eval_AWT_cua_best,,,,33.0593,,,
+meta,diem_chon_best = 0.7*ket_xe/ket_xe_base + 0.30*AWT/AWT_base (thap hon = tot hon),,,,20.8905,,,
+tham_so,w1,,,,0.05,,,
+tham_so,w2,,,,0.5,,,
+tham_so,w3,,,,0.0,,,
+tham_so,w4,,,,2.0,,,
+tham_so,stuck_wait,,,,60.0,,,
+tham_so,reward_clip,,,,10.0,,,
+tham_so,stuck_cap,,,,30.0,,,
+tham_so,gamma,,,,0.95,,,
+tham_so,lam,,,,0.95,,,
+tham_so,ent,,,,0.01,,,
+tham_so,lr_actor,,,,0.0001,,,
+tham_so,lr_critic,,,,0.001,,,
+tham_so,eps,,,,0.2,,,
+tham_so,base,,,,0.2,,,
+tham_so,epochs,,,,4,,,
+tham_so,batch,,,,64,,,
+tham_so,delta_t,,,,10,,,
+tham_so,yellow,,,,3,,,
+tham_so,min_green,,,,5,,,
+tham_so,max_green,,,,60,,,
+tham_so,episode_len,,,,7200,,,
+tham_so,eval_seeds,,,,3,,,
+tham_so,seed,,,,5099,,,
+tong_quan,AWT: thoi gian cho TB cua xe tren canh bien (s),63.4706,18.0682,17.6389,33.0593,21.5048,69.5815,22.7315
+tong_quan,AQL: hang cho TB tren canh bien (xe quy doi),1.1361,0.8188,0.7971,0.9173,0.1549,1.5182,1.0065
+tong_quan,toc do TB (m/s),2.1988,2.5894,2.5998,2.4627,0.1866,1.3722,2.6456
+tong_quan,xe vao mang,8884.0,9917.0,9853.0,9551.3333,472.5987,6122.0,10806.0
+tong_quan,xe den dich,8779.0,9828.0,9756.0,9454.3333,478.4366,6016.0,10716.6667
+tong_quan,ti le den dich = den dich / vao mang (%),98.8181,99.1026,99.0155,98.9787,0.119,98.2685,99.1732
+tong_quan,"xe thoat ra (dem moi delta_t, thuong thieu)",4980.0,5418.0,5391.0,5263.0,200.4146,3212.0,5337.6667
+tong_quan,xe con trong mang cuoi episode,105.0,89.0,97.0,97.0,6.532,106.0,89.3333
+tong_quan,xe bi teleport,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ket_xe,xe ket TB moi buoc,14.3042,0.0472,0.0153,4.7889,6.7283,9.1875,0.1639
+ket_xe,xe ket lau nhat (s),3943.0,115.0,71.0,1376.3333,1814.9963,209.0,110.0
+reward,tong reward (da tru phat),-11169.4917,-6.5443,-2.554,-3726.1967,5263.2047,-1242.953,-20.1402
+reward,tong reward truoc phat (da cat +-reward_clip),-6.4606,-1.3032,-1.4727,-3.0788,2.3922,-3.1859,-1.7778
+reward,"thanh phan w1*(WT_prev-WT), chua cat",-5.8849,-0.9024,-1.1196,-2.6356,2.2993,-2.3534,-1.139
+reward,"thanh phan w2*(QL_prev-QL), chua cat",-0.5756,-0.4008,-0.3531,-0.4432,0.0956,-0.8325,-0.6387
+reward,"thanh phan w3*thr, chua cat",0.0,0.0,0.0,0.0,0.0,0.0,0.0
+phat,tong phat ket xe (TB cac den),11163.0312,5.2411,1.0813,3723.1178,5260.8134,1239.7672,18.3625
+phat,phat ket xe TB moi buoc,15.5042,0.0073,0.0015,5.171,7.3067,1.7219,0.0255
+xe_vao_canh,-E0,2683.0,3189.0,3181.0,3017.6667,236.6676,1563.0,3745.0
+xe_vao_canh,-E2,891.0,864.0,890.0,881.6667,12.4989,812.0,882.3333
+xe_vao_canh,-E4,506.0,871.0,832.0,736.3333,163.6466,751.0,794.0
+xe_vao_canh,E0,3216.0,3328.0,3299.0,3281.0,47.4623,1438.0,3719.3333
+xe_vao_canh,E1,745.0,851.0,846.0,814.0,48.833,802.0,844.6667
+xe_vao_canh,E3,843.0,814.0,805.0,820.6667,16.2138,756.0,820.6667
+xe_ra_canh,-E0.124,2664.0,3389.0,3231.0,3094.6667,311.2837,2040.0,3645.6667
+xe_ra_canh,-E1,634.0,788.0,789.0,737.0,72.8331,404.0,892.6667
+xe_ra_canh,-E3,732.0,757.0,768.0,752.3333,15.0628,483.0,885.0
+xe_ra_canh,E0.69,2976.0,3198.0,3144.0,3106.0,94.5304,1842.0,3387.3333
+xe_ra_canh,E2,896.0,805.0,914.0,871.6667,47.7098,594.0,957.3333
+xe_ra_canh,E4,887.0,896.0,922.0,901.6667,14.8399,663.0,952.6667
+xe_dung_TB_canh,-E0,18.4736,14.2431,13.5667,15.4278,2.1714,26.5639,19.1366
+xe_dung_TB_canh,-E2,4.6333,1.2264,1.8958,2.5852,1.4738,3.4472,2.3704
+xe_dung_TB_canh,-E4,5.8069,3.5653,3.5042,4.2921,1.0714,4.65,4.0111
+xe_dung_TB_canh,E0,5.5653,5.3514,5.2972,5.4046,0.1157,8.3639,6.6755
+xe_dung_TB_canh,E1,6.2278,4.4944,4.1861,4.9694,0.8986,9.4667,4.0917
+xe_dung_TB_canh,E3,1.3778,1.5764,1.2778,1.4106,0.1241,3.4111,1.5731
+xe_dung_TB_canh,-E0.124,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+xe_dung_TB_canh,-E1,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+xe_dung_TB_canh,-E3,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+xe_dung_TB_canh,E0.69,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+xe_dung_TB_canh,E2,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+xe_dung_TB_canh,E4,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+den clusterJ14_J15_J3_J4,phat_TB_moi_buoc,15.4278,0.0135,0.0022,5.1478,7.269,1.3043,0.0391
+den clusterJ14_J15_J3_J4,so_lan_doi_pha,712.0,705.0,704.0,707.0,3.559,480.0,
+den clusterJ14_J15_J3_J4,thoi_gian_pha_0_%,47.2222,50.9722,51.1111,49.7685,1.8014,33.6111,
+den clusterJ14_J15_J3_J4,thoi_gian_pha_2_%,22.5,11.6667,13.75,15.9722,4.6935,34.4444,
+den clusterJ14_J15_J3_J4,thoi_gian_pha_4_%,30.2778,37.3611,35.1389,34.2593,2.9579,31.9444,
+den clusterJ16_J18_J7_J8,phat_TB_moi_buoc,15.5807,0.0011,0.0008,5.1942,7.3444,2.1395,0.0119
+den clusterJ16_J18_J7_J8,so_lan_doi_pha,605.0,606.0,617.0,609.3333,5.4365,495.0,
+den clusterJ16_J18_J7_J8,thoi_gian_pha_0_%,57.9167,57.0833,56.9444,57.3148,0.4293,30.1389,
+den clusterJ16_J18_J7_J8,thoi_gian_pha_2_%,7.5,9.5833,10.2778,9.1204,1.1803,34.3056,
+den clusterJ16_J18_J7_J8,thoi_gian_pha_4_%,34.5833,33.3333,32.7778,33.5648,0.7551,35.5556,

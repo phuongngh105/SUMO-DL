@@ -905,11 +905,11 @@ def parse_args():
     # --- danh gia va ket qua
     p.add_argument("--out-dir", default="results", help="thu muc luu best.pt, last.pt, trained.sumocfg, bao cao")
     p.add_argument("--block", type=int, default=10, help="moi bao nhieu episode luu 1 checkpoint trong so (progress.csv/png van cap nhat MOI episode)")
-    p.add_argument("--eval-every", type=int, default=1, help="0 = tat danh gia trong luc train")
+    p.add_argument("--eval-every", type=int, default=2, help="0 = tat danh gia trong luc train")
     p.add_argument("--select-alpha", type=float, default=0.7,
                    help="trong so ket xe khi chon best.pt: diem = a*ket_xe/base + (1-a)*AWT/base (1 = chi ket xe, 0 = chi AWT)")
-    p.add_argument("--eval-seeds", type=int, default=3, help="so seed cho moi lan danh gia trong luc train")
-    p.add_argument("--final-seeds", type=int, default=5, help="so seed cho bao cao cuoi (0 = bo qua)")
+    p.add_argument("--eval-seeds", type=int, default=10, help="so seed cho moi lan danh gia trong luc train")
+    p.add_argument("--final-seeds", type=int, default=20, help="so seed cho bao cao cuoi (0 = bo qua)")
     p.add_argument("--eval", action="store_true", help="khong train: so baseline voi weight da luu")
     p.add_argument("--weights", default="both", help="dung voi --eval: best | last | both | duong dan .pt")
     p.add_argument("--eval-episodes", type=int, default=5, help="so seed khi dung --eval")

@@ -1,0 +1,76 @@
+TU NHAN: 2 den dieu khien: clusterJ14_J15_J3_J4 (pha xanh [0, 2, 4], 12 lan vao, vang tu tlLogic); clusterJ16_J18_J7_J8 (pha xanh [0, 2, 4], 12 lan vao, vang tu tlLogic)
+canh bien do reward: vao=['-E0', '-E2', '-E4', 'E0', 'E1', 'E3'] | ra=['-E0.124', '-E1', '-E3', 'E0.69', 'E2', 'E4']
+luu luong TU FILE ROUTE: 44 flow, loai xe ['ko_tac', 'td_0'], jitter luu luong +-0.1, ti le loai xe +-0.05, Poisson
+  tong luu luong theo giai doan (xe/gio): 0-3600s: 6103 | 3600-7200s: 4960
+ep   0 | AWT   62.6s | AQL  1.47 | v  1.52 m/s | vao  6523 | den  6409 | thoat  3436 | con  114 | tele   0 | ket  8.3 (max  279s) | phat  1.66 | 564s | EVAL AWT   48.2s  <- BEST moi
+ep   1 | AWT  108.8s | AQL  1.91 | v  1.20 m/s | vao  5193 | den  5033 | thoat  2664 | con  160 | tele   0 | ket 37.7 (max 2084s) | phat  8.45 | 632s | EVAL AWT   70.2s
+ep   2 | AWT  115.4s | AQL  1.99 | v  1.16 m/s | vao  4836 | den  4618 | thoat  2549 | con  218 | tele   0 | ket 41.8 (max 1868s) | phat  8.24 | 652s | EVAL AWT   83.5s
+ep   3 | AWT   72.2s | AQL  1.51 | v  1.44 m/s | vao  6624 | den  6507 | thoat  3569 | con  117 | tele   0 | ket 12.0 (max 1956s) | phat  8.04 | 604s | EVAL AWT   71.2s
+ep   4 | AWT   51.5s | AQL  1.41 | v  1.57 m/s | vao  7031 | den  6914 | thoat  3696 | con  117 | tele   0 | ket  4.7 (max  245s) | phat  0.87 | 503s | EVAL AWT   21.7s  <- BEST moi
+ep   5 | AWT   45.2s | AQL  1.34 | v  1.66 m/s | vao  7243 | den  7139 | thoat  3836 | con  104 | tele   0 | ket  2.3 (max  156s) | phat  0.37 | 531s | EVAL AWT   39.8s
+ep   6 | AWT  145.2s | AQL  2.31 | v  1.00 m/s | vao  4959 | den  4796 | thoat  2566 | con  163 | tele   0 | ket 55.8 (max 3388s) | phat 13.75 | 542s | EVAL AWT   22.6s
+ep   7 | AWT  261.0s | AQL  2.76 | v  0.36 m/s | vao  1712 | den  1564 | thoat   906 | con  148 | tele   0 | ket 108.4 (max 6763s) | phat 27.60 | 562s | EVAL AWT   19.1s  <- BEST moi
+ep   8 | AWT   85.6s | AQL  1.70 | v  1.42 m/s | vao  6331 | den  6168 | thoat  3288 | con  163 | tele   0 | ket 27.7 (max 1549s) | phat  6.08 | 596s | EVAL AWT   65.0s
+ep   9 | AWT  108.9s | AQL  1.87 | v  1.30 m/s | vao  5527 | den  5364 | thoat  2833 | con  163 | tele   0 | ket 42.0 (max 2373s) | phat  9.29 | 578s | EVAL AWT   53.0s
+ep  10 | AWT   34.6s | AQL  1.18 | v  1.89 m/s | vao  7814 | den  7731 | thoat  4087 | con   83 | tele   0 | ket  0.9 (max  133s) | phat  0.12 | 526s | EVAL AWT   32.5s
+ep  11 | AWT   28.9s | AQL  1.07 | v  2.11 m/s | vao  8372 | den  8269 | thoat  4570 | con  103 | tele   0 | ket  0.3 (max  130s) | phat  0.04 | 592s | EVAL AWT   77.1s
+ep  12 | AWT  109.5s | AQL  1.83 | v  1.53 m/s | vao  6176 | den  6008 | thoat  3199 | con  168 | tele   0 | ket 49.1 (max 2671s) | phat 10.59 | 588s | EVAL AWT   59.3s
+ep  13 | AWT   27.3s | AQL  1.03 | v  2.12 m/s | vao  8269 | den  8170 | thoat  4435 | con   99 | tele   0 | ket  0.4 (max  116s) | phat  0.05 | 476s | EVAL AWT   16.2s  <- BEST moi
+ep  14 | AWT   26.4s | AQL  1.02 | v  2.14 m/s | vao  8587 | den  8490 | thoat  4570 | con   97 | tele   0 | ket  0.4 (max  115s) | phat  0.05 | 558s | EVAL AWT   58.1s
+ep  15 | AWT   28.5s | AQL  1.03 | v  2.20 m/s | vao  8565 | den  8398 | thoat  4613 | con  167 | tele   0 | ket  3.1 (max  290s) | phat  0.79 | 532s | EVAL AWT   62.1s
+ep  16 | AWT   26.6s | AQL  1.00 | v  2.16 m/s | vao  8471 | den  8379 | thoat  4537 | con   92 | tele   0 | ket  0.2 (max  124s) | phat  0.03 | 476s | EVAL AWT   15.7s  <- BEST moi
+ep  17 | AWT  210.7s | AQL  2.71 | v  0.73 m/s | vao  3260 | den  3088 | thoat  1665 | con  172 | tele   0 | ket 97.3 (max 5576s) | phat 22.58 | 624s | EVAL AWT   63.0s
+ep  18 | AWT  143.4s | AQL  1.89 | v  1.30 m/s | vao  5615 | den  5453 | thoat  3094 | con  162 | tele   0 | ket 51.1 (max 6958s) | phat 27.97 | 503s | EVAL AWT   15.6s  <- BEST moi
+ep  19 | AWT   22.5s | AQL  0.90 | v  2.33 m/s | vao  8661 | den  8570 | thoat  4682 | con   91 | tele   0 | ket  0.1 (max  105s) | phat  0.02 | 526s | EVAL AWT   45.0s
+ep  20 | AWT  133.9s | AQL  2.37 | v  1.42 m/s | vao  5141 | den  4916 | thoat  2756 | con  225 | tele   0 | ket 63.3 (max 3346s) | phat 13.42 | 549s | EVAL AWT   30.9s
+ep  21 | AWT  122.0s | AQL  1.82 | v  1.58 m/s | vao  5674 | den  5513 | thoat  3019 | con  161 | tele   0 | ket 53.8 (max 3008s) | phat 11.95 | 541s | EVAL AWT   32.8s
+ep  22 | AWT   98.2s | AQL  1.67 | v  1.70 m/s | vao  6434 | den  6275 | thoat  3421 | con  159 | tele   0 | ket 40.3 (max 2409s) | phat  9.60 | 520s | EVAL AWT   27.1s
+ep  23 | AWT   21.4s | AQL  0.87 | v  2.43 m/s | vao  9013 | den  8926 | thoat  4951 | con   87 | tele   0 | ket  0.1 (max  105s) | phat  0.01 | 586s | EVAL AWT   78.0s
+ep  24 | AWT   67.2s | AQL  1.30 | v  2.08 m/s | vao  7414 | den  7254 | thoat  3996 | con  160 | tele   0 | ket 26.1 (max 1539s) | phat  5.76 | 652s | EVAL AWT   99.0s
+ep  25 | AWT   82.2s | AQL  1.42 | v  1.92 m/s | vao  6995 | den  6839 | thoat  3709 | con  156 | tele   0 | ket 33.5 (max 2001s) | phat  7.49 | 670s | EVAL AWT  100.7s
+ep  26 | AWT   19.3s | AQL  0.82 | v  2.51 m/s | vao  9092 | den  8989 | thoat  4941 | con  103 | tele   0 | ket  0.1 (max  101s) | phat  0.01 | 557s | EVAL AWT   58.2s
+ep  27 | AWT   17.3s | AQL  0.80 | v  2.56 m/s | vao  9154 | den  9065 | thoat  5009 | con   89 | tele   0 | ket  0.0 (max   66s) | phat  0.00 | 506s | EVAL AWT   37.6s
+ep  28 | AWT   18.4s | AQL  0.81 | v  2.50 m/s | vao  9300 | den  9198 | thoat  4988 | con  102 | tele   0 | ket  0.1 (max  105s) | phat  0.01 | 683s | EVAL AWT  121.8s
+ep  29 | AWT   17.4s | AQL  0.78 | v  2.55 m/s | vao  9255 | den  9169 | thoat  5054 | con   86 | tele   0 | ket  0.0 (max   79s) | phat  0.00 | 475s | EVAL AWT   17.8s
+ep  30 | AWT   16.8s | AQL  0.76 | v  2.63 m/s | vao  9257 | den  9177 | thoat  5090 | con   80 | tele   0 | ket  0.1 (max   96s) | phat  0.01 | 501s | EVAL AWT   29.9s
+ep  31 | AWT   16.4s | AQL  0.75 | v  2.65 m/s | vao  9520 | den  9432 | thoat  5284 | con   88 | tele   0 | ket  0.0 (max   72s) | phat  0.00 | 511s | EVAL AWT   38.7s
+ep  32 | AWT  112.5s | AQL  1.54 | v  1.81 m/s | vao  6169 | den  6015 | thoat  3370 | con  154 | tele   0 | ket 48.6 (max 2782s) | phat 11.08 | 539s | EVAL AWT   38.8s
+ep  33 | AWT   14.5s | AQL  0.70 | v  2.77 m/s | vao  9369 | den  9299 | thoat  5140 | con   70 | tele   0 | ket  0.0 (max   95s) | phat  0.00 | 462s | EVAL AWT   14.6s  <- BEST moi
+ep  34 | AWT   16.7s | AQL  0.75 | v  2.67 m/s | vao  9437 | den  9356 | thoat  5122 | con   81 | tele   0 | ket  0.1 (max   93s) | phat  0.01 | 516s | EVAL AWT   40.7s
+ep  35 | AWT   15.3s | AQL  0.72 | v  2.73 m/s | vao  9506 | den  9421 | thoat  5238 | con   85 | tele   0 | ket  0.1 (max   90s) | phat  0.01 | 487s | EVAL AWT   32.4s
+ep  36 | AWT   15.1s | AQL  0.70 | v  2.74 m/s | vao  9495 | den  9382 | thoat  5107 | con  113 | tele   0 | ket  0.1 (max  127s) | phat  0.02 | 528s | EVAL AWT   50.2s
+ep  37 | AWT   14.3s | AQL  0.69 | v  2.76 m/s | vao  9556 | den  9474 | thoat  5301 | con   82 | tele   0 | ket  0.0 (max   76s) | phat  0.00 | 539s | EVAL AWT   61.2s
+ep  38 | AWT   14.5s | AQL  0.71 | v  2.78 m/s | vao  9775 | den  9677 | thoat  5436 | con   98 | tele   0 | ket  0.0 (max   76s) | phat  0.00 | 507s | EVAL AWT   35.4s
+ep  39 | AWT   14.0s | AQL  0.68 | v  2.87 m/s | vao  9425 | den  9347 | thoat  5242 | con   78 | tele   0 | ket  0.1 (max  115s) | phat  0.01 | 478s | EVAL AWT   25.1s
+ep  40 | AWT   15.3s | AQL  0.70 | v  2.71 m/s | vao  9473 | den  9381 | thoat  5134 | con   92 | tele   0 | ket  0.2 (max  119s) | phat  0.03 | 713s | EVAL AWT   37.2s
+ep  41 | AWT   15.6s | AQL  0.72 | v  2.73 m/s | vao  9579 | den  9471 | thoat  5285 | con  108 | tele   0 | ket  0.0 (max   70s) | phat  0.00 | 599s | EVAL AWT   14.3s  <- BEST moi
+ep  42 | AWT   46.6s | AQL  1.03 | v  2.47 m/s | vao  8323 | den  8158 | thoat  4530 | con  165 | tele   0 | ket 18.5 (max 1109s) | phat  4.00 | 926s | EVAL AWT   87.2s
+ep  43 | AWT   13.8s | AQL  0.68 | v  2.80 m/s | vao  9397 | den  9326 | thoat  5163 | con   71 | tele   0 | ket  0.0 (max   75s) | phat  0.00 | 896s | EVAL AWT   69.5s
+ep  44 | AWT   14.2s | AQL  0.68 | v  2.82 m/s | vao  9458 | den  9365 | thoat  5190 | con   93 | tele   0 | ket  0.0 (max   76s) | phat  0.00 | 622s | EVAL AWT   75.0s
+ep  45 | AWT   14.5s | AQL  0.70 | v  2.77 m/s | vao  9386 | den  9310 | thoat  5185 | con   76 | tele   0 | ket  0.1 (max   76s) | phat  0.01 | 542s | EVAL AWT   62.4s
+ep  46 | AWT   15.6s | AQL  0.72 | v  2.71 m/s | vao  9382 | den  9281 | thoat  5154 | con  101 | tele   0 | ket  0.0 (max  116s) | phat  0.00 | 559s | EVAL AWT   66.9s
+ep  47 | AWT   14.7s | AQL  0.71 | v  2.70 m/s | vao  9481 | den  9381 | thoat  5229 | con  100 | tele   0 | ket  0.0 (max   76s) | phat  0.00 | 559s | EVAL AWT   67.8s
+ep  48 | AWT   14.6s | AQL  0.69 | v  2.80 m/s | vao  9435 | den  9342 | thoat  5231 | con   93 | tele   0 | ket  0.0 (max   96s) | phat  0.01 | 504s | EVAL AWT   29.0s
+ep  49 | AWT   44.1s | AQL  0.85 | v  2.60 m/s | vao  8844 | den  8748 | thoat  5052 | con   96 | tele   0 | ket  8.3 (max 2632s) | phat 10.04 | 530s | EVAL AWT   51.0s
+ep  50 | AWT   17.8s | AQL  0.73 | v  2.70 m/s | vao  9086 | den  8926 | thoat  4872 | con  160 | tele   0 | ket  2.7 (max  371s) | phat  0.82 | 569s | EVAL AWT   71.9s
+ep  51 | AWT   14.0s | AQL  0.67 | v  2.81 m/s | vao  9445 | den  9365 | thoat  5096 | con   80 | tele   0 | ket  0.0 (max   93s) | phat  0.01 | 472s | EVAL AWT   14.2s  <- BEST moi
+Interrupt signal received, trying to exit gracefully.
+Traceback (most recent call last):
+  File "D:\Project\SUMO-DL\Train\train_ppo_tsc.py", line 1039, in <module>
+    main()
+    ~~~~^^
+  File "D:\Project\SUMO-DL\Train\train_ppo_tsc.py", line 981, in main
+    eval_rows = evaluate(env, net, eval_seeds)
+  File "D:\Project\SUMO-DL\Train\train_ppo_tsc.py", line 581, in evaluate
+    return [run_episode(env, net, greedy=True, fixed=fixed, seed=s)[0] for s in seeds]
+            ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\SUMO-DL\Train\train_ppo_tsc.py", line 532, in run_episode
+    obs, rew, done, vaver = env.step(actions)
+                            ~~~~~~~~^^^^^^^^^
+  File "D:\Project\SUMO-DL\Train\train_ppo_tsc.py", line 447, in step
+    obs = {tl: self.observe(tl) for tl in self.tl_ids}
+               ~~~~~~~~~~~~^^^^
+  File "D:\Project\SUMO-DL\Train\train_ppo_tsc.py", line 321, in observe
+    wt[ln] = min(traci.vehicle.getAccumulatedWaitingTime(head) / self.wt_norm, 1.0)
+             ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

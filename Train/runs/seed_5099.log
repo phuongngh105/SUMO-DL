@@ -1,0 +1,7 @@
+TU NHAN: 2 den dieu khien: clusterJ14_J15_J3_J4 (pha xanh [0, 2, 4], 12 lan vao, vang tu tlLogic); clusterJ16_J18_J7_J8 (pha xanh [0, 2, 4], 12 lan vao, vang tu tlLogic)
+canh bien do reward: vao=['-E0', '-E2', '-E4', 'E0', 'E1', 'E3'] | ra=['-E0.124', '-E1', '-E3', 'E0.69', 'E2', 'E4']
+luu luong TU FILE ROUTE: 44 flow, loai xe ['ko_tac', 'td_0'], jitter luu luong +-0.1, ti le loai xe +-0.0, Poisson
+  tong luu luong theo giai doan (xe/gio): 0-3600s: 5985 | 3600-7200s: 5120
+ep   0 | AWT   64.2s | AQL  1.44 | v  1.49 m/s | vao  6393 | den  6264 | thoat  3347 | con  129 | tele   0 | ket  8.9 (max  216s) | phat  1.59 | 419s | EVAL AWT   83.4s ket 36.3 diem 155.990  <- BEST moi
+ep   1 | AWT   69.6s | AQL  1.52 | v  1.37 m/s | vao  6122 | den  6016 | thoat  3212 | con  106 | tele   0 | ket  9.2 (max  209s) | phat  1.72 | 554s | EVAL AWT   33.1s ket  4.8 diem 20.891  <- BEST moi
+Interrupt signal received, trying to exit gracefully.

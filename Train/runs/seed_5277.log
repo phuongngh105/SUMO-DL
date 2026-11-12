@@ -1,0 +1,13 @@
+TU NHAN: 2 den dieu khien: clusterJ14_J15_J3_J4 (pha xanh [0, 2, 4], 12 lan vao, vang tu tlLogic); clusterJ16_J18_J7_J8 (pha xanh [0, 2, 4], 12 lan vao, vang tu tlLogic)
+canh bien do reward: vao=['-E0', '-E2', '-E4', 'E0', 'E1', 'E3'] | ra=['-E0.124', '-E1', '-E3', 'E0.69', 'E2', 'E4']
+luu luong TU FILE ROUTE: 44 flow, loai xe ['ko_tac', 'td_0'], jitter luu luong +-0.1, ti le loai xe +-0.05, Poisson
+  tong luu luong theo giai doan (xe/gio): 0-3600s: 6049 | 3600-7200s: 5162
+Interrupt signal received, trying to exit gracefully.
+Traceback (most recent call last):
+  File "D:\Project\SUMO-DL\Train\train_ppo_tsc.py", line 1039, in <module>
+    main()
+    ~~~~^^
+  File "D:\Project\SUMO-DL\Train\train_ppo_tsc.py", line 963, in main
+    base_rows = evaluate(env, None, eval_seeds, fixed=True) if a.eval_every else None
+                ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\SUMO-DL\Train\train_ppo_tsc.py", line 581, in evaluate

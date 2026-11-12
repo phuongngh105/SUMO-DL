@@ -1,0 +1,85 @@
+TU NHAN: 2 den dieu khien: clusterJ14_J15_J3_J4 (pha xanh [0, 2, 4], 12 lan vao, vang tu tlLogic); clusterJ16_J18_J7_J8 (pha xanh [0, 2, 4], 12 lan vao, vang tu tlLogic)
+canh bien do reward: vao=['-E0', '-E2', '-E4', 'E0', 'E1', 'E3'] | ra=['-E0.124', '-E1', '-E3', 'E0.69', 'E2', 'E4']
+luu luong TU FILE ROUTE: 44 flow, loai xe ['ko_tac', 'td_0'], jitter luu luong +-0.1, ti le loai xe +-0.0, Poisson
+  tong luu luong theo giai doan (xe/gio): 0-3600s: 6201 | 3600-7200s: 5005
+ep   0 | AWT  214.8s | AQL  3.21 | v  0.58 m/s | vao  2464 | den  2264 | thoat  1355 | con  200 | tele   0 | ket 90.3 (max 5173s) | phat 21.19 | 1781s | EVAL AWT  123.5s ket 54.8 diem 4.023  <- BEST moi
+ep   1 | AWT  189.8s | AQL  2.44 | v  0.73 m/s | vao  3322 | den  3167 | thoat  1776 | con  155 | tele   0 | ket 76.7 (max 4541s) | phat 18.80 | 1472s | EVAL AWT   60.0s ket 23.5 diem 1.775  <- BEST moi
+ep   2 | AWT   60.1s | AQL  1.54 | v  1.47 m/s | vao  6532 | den  6435 | thoat  3490 | con   97 | tele   0 | ket  9.0 (max  243s) | phat  1.72 | 1402s | EVAL AWT   47.0s ket 13.3 diem 1.097  <- BEST moi
+ep   3 | AWT  149.2s | AQL  2.21 | v  1.01 m/s | vao  4005 | den  3834 | thoat  2082 | con  171 | tele   0 | ket 61.3 (max 3119s) | phat 12.79 | 1352s | EVAL AWT   49.6s ket 17.1 diem 1.334
+ep   4 | AWT   56.5s | AQL  1.43 | v  1.55 m/s | vao  6807 | den  6709 | thoat  3638 | con   98 | tele   0 | ket  7.8 (max  194s) | phat  1.37 | 1962s | EVAL AWT   91.0s ket 37.3 diem 2.787
+ep   5 | AWT   48.3s | AQL  1.34 | v  1.67 m/s | vao  7075 | den  6947 | thoat  3719 | con  128 | tele   0 | ket  3.4 (max  223s) | phat  0.61 | 1362s | EVAL AWT   62.3s ket 22.5 diem 1.734
+ep   6 | AWT  100.3s | AQL  1.81 | v  1.44 m/s | vao  5870 | den  5695 | thoat  3070 | con  175 | tele   0 | ket 40.6 (max 2185s) | phat  8.64 | 1303s | EVAL AWT   42.1s ket 12.0 diem 0.983  <- BEST moi
+ep   7 | AWT  120.7s | AQL  1.94 | v  1.31 m/s | vao  5404 | den  5231 | thoat  2769 | con  173 | tele   0 | ket 50.4 (max 2819s) | phat 11.08 | 993s | EVAL AWT   34.6s ket  9.5 diem 0.790  <- BEST moi
+ep   8 | AWT   33.8s | AQL  1.13 | v  1.94 m/s | vao  7688 | den  7602 | thoat  4071 | con   86 | tele   0 | ket  0.7 (max  130s) | phat  0.10 | 1003s | EVAL AWT   44.1s ket 13.6 diem 1.093
+ep   9 | AWT  176.2s | AQL  2.41 | v  0.94 m/s | vao  3912 | den  3747 | thoat  2029 | con  165 | tele   0 | ket 78.1 (max 4291s) | phat 17.20 | 1383s | EVAL AWT   38.5s ket 11.0 diem 0.905
+ep  10 | AWT   33.7s | AQL  1.12 | v  1.95 m/s | vao  7858 | den  7753 | thoat  4139 | con  105 | tele   0 | ket  0.6 (max  133s) | phat  0.08 | 985s | EVAL AWT   41.6s ket 12.1 diem 0.988
+ep  11 | AWT   33.0s | AQL  1.12 | v  1.97 m/s | vao  7980 | den  7892 | thoat  4170 | con   88 | tele   0 | ket  0.7 (max  128s) | phat  0.10 | 1302s | EVAL AWT   37.5s ket  9.0 diem 0.782  <- BEST moi
+ep  12 | AWT  142.3s | AQL  2.10 | v  1.26 m/s | vao  4992 | den  4820 | thoat  2596 | con  172 | tele   0 | ket 65.0 (max 3576s) | phat 14.36 | 1663s | EVAL AWT   48.4s ket 14.7 diem 1.186
+ep  13 | AWT   68.7s | AQL  1.46 | v  1.74 m/s | vao  6956 | den  6789 | thoat  3708 | con  167 | tele   0 | ket 23.8 (max 1447s) | phat  5.41 | 1482s | EVAL AWT   35.8s ket 11.1 diem 0.887
+ep  14 | AWT   91.4s | AQL  1.54 | v  1.79 m/s | vao  6578 | den  6396 | thoat  3442 | con  182 | tele   0 | ket 38.5 (max 2243s) | phat  8.63 | 1606s | EVAL AWT   46.8s ket 17.0 diem 1.307
+ep  15 | AWT  262.5s | AQL  3.21 | v  0.32 m/s | vao  1759 | den  1618 | thoat   823 | con  141 | tele   0 | ket 114.8 (max 6920s) | phat 28.22 | 1131s | EVAL AWT   36.2s ket 12.6 diem 0.980
+ep  16 | AWT   29.3s | AQL  1.04 | v  2.11 m/s | vao  8070 | den  7967 | thoat  4275 | con  103 | tele   0 | ket  0.6 (max  105s) | phat  0.07 | 954s | EVAL AWT   37.0s ket 11.7 diem 0.935
+ep  17 | AWT   33.3s | AQL  1.08 | v  2.08 m/s | vao  8118 | den  8005 | thoat  4290 | con  113 | tele   0 | ket  1.4 (max  555s) | phat  0.97 | 894s | EVAL AWT   15.8s ket  0.6 diem 0.146  <- BEST moi
+ep  18 | AWT   27.4s | AQL  1.01 | v  2.20 m/s | vao  8307 | den  8212 | thoat  4431 | con   95 | tele   0 | ket  0.5 (max  125s) | phat  0.06 | 1532s | EVAL AWT   88.4s ket 35.9 diem 2.687
+ep  19 | AWT  138.9s | AQL  2.17 | v  1.39 m/s | vao  4764 | den  4571 | thoat  2488 | con  193 | tele   0 | ket 69.1 (max 3391s) | phat 13.30 | 1101s | EVAL AWT   57.5s ket 20.8 diem 1.599
+ep  20 | AWT   73.3s | AQL  1.51 | v  1.82 m/s | vao  6950 | den  6756 | thoat  3634 | con  194 | tele   0 | ket 29.8 (max 1670s) | phat  6.44 | 978s | EVAL AWT   39.7s ket 12.7 diem 1.007
+ep  21 | AWT   24.9s | AQL  0.91 | v  2.33 m/s | vao  8557 | den  8463 | thoat  4632 | con   94 | tele   0 | ket  0.3 (max  118s) | phat  0.05 | 1097s | EVAL AWT   82.5s ket 34.5 diem 2.568
+ep  22 | AWT   79.2s | AQL  1.43 | v  1.92 m/s | vao  6951 | den  6796 | thoat  3677 | con  155 | tele   0 | ket 31.1 (max 1920s) | phat  7.35 | 1059s | EVAL AWT   63.8s ket 25.0 diem 1.891
+ep  23 | AWT   22.6s | AQL  0.92 | v  2.32 m/s | vao  8692 | den  8605 | thoat  4723 | con   87 | tele   0 | ket  0.1 (max   88s) | phat  0.01 | 1075s | EVAL AWT   72.4s ket 31.4 diem 2.321
+ep  24 | AWT   65.2s | AQL  1.18 | v  2.05 m/s | vao  7672 | den  7558 | thoat  4235 | con  114 | tele   0 | ket 14.8 (max 3830s) | phat 14.59 | 958s | EVAL AWT   35.5s ket 10.8 diem 0.869
+ep  25 | AWT   18.4s | AQL  0.81 | v  2.55 m/s | vao  9120 | den  9021 | thoat  4939 | con   99 | tele   0 | ket  0.0 (max   96s) | phat  0.00 | 1100s | EVAL AWT   83.4s ket 33.7 diem 2.525
+ep  26 | AWT   17.8s | AQL  0.78 | v  2.62 m/s | vao  9274 | den  9196 | thoat  5056 | con   78 | tele   0 | ket  0.1 (max   82s) | phat  0.01 | 989s | EVAL AWT   49.4s ket 17.1 diem 1.331
+ep  27 | AWT   43.3s | AQL  1.11 | v  2.22 m/s | vao  8294 | den  8204 | thoat  4517 | con   90 | tele   0 | ket 11.1 (max  731s) | phat  2.67 | 931s | EVAL AWT   26.2s ket  5.6 diem 0.507
+ep  28 | AWT   20.4s | AQL  0.87 | v  2.45 m/s | vao  9090 | den  9017 | thoat  4997 | con   73 | tele   0 | ket  0.1 (max  106s) | phat  0.02 | 969s | EVAL AWT   39.9s ket 14.0 diem 1.084
+ep  29 | AWT  116.9s | AQL  1.73 | v  1.65 m/s | vao  6161 | den  5992 | thoat  3274 | con  169 | tele   0 | ket 52.9 (max 2972s) | phat 11.62 | 994s | EVAL AWT   31.0s ket  8.4 diem 0.699
+ep  30 | AWT   84.8s | AQL  1.38 | v  2.02 m/s | vao  7098 | den  6945 | thoat  3844 | con  153 | tele   0 | ket 32.2 (max 2073s) | phat  8.10 | 970s | EVAL AWT   35.8s ket 11.4 diem 0.910
+ep  31 | AWT   20.0s | AQL  0.86 | v  2.44 m/s | vao  9262 | den  9168 | thoat  4973 | con   94 | tele   0 | ket  0.1 (max  102s) | phat  0.02 | 1056s | EVAL AWT   70.4s ket 27.0 diem 2.049
+ep  32 | AWT   18.6s | AQL  0.82 | v  2.56 m/s | vao  9226 | den  9137 | thoat  5038 | con   89 | tele   0 | ket  0.1 (max   90s) | phat  0.01 | 1035s | EVAL AWT   67.4s ket 23.8 diem 1.841
+ep  33 | AWT   90.7s | AQL  1.71 | v  1.84 m/s | vao  6763 | den  6564 | thoat  3645 | con  199 | tele   0 | ket 37.2 (max 2171s) | phat  8.63 | 1016s | EVAL AWT   49.4s ket 16.8 diem 1.312
+ep  34 | AWT   87.1s | AQL  1.49 | v  1.95 m/s | vao  7078 | den  6904 | thoat  3765 | con  174 | tele   0 | ket 39.0 (max 2110s) | phat  8.29 | 987s | EVAL AWT   42.4s ket 13.2 diem 1.055
+ep  35 | AWT   20.3s | AQL  0.83 | v  2.46 m/s | vao  9058 | den  8917 | thoat  4902 | con  141 | tele   0 | ket  1.5 (max  195s) | phat  0.32 | 934s | EVAL AWT   31.6s ket  7.0 diem 0.621
+ep  36 | AWT   17.2s | AQL  0.78 | v  2.55 m/s | vao  9269 | den  9169 | thoat  4984 | con  100 | tele   0 | ket  0.1 (max   85s) | phat  0.01 | 979s | EVAL AWT   45.8s ket 15.7 diem 1.226
+ep  37 | AWT   19.4s | AQL  0.84 | v  2.43 m/s | vao  9104 | den  9012 | thoat  4862 | con   92 | tele   0 | ket  0.1 (max   92s) | phat  0.01 | 1013s | EVAL AWT   55.6s ket 22.4 diem 1.679
+ep  38 | AWT   72.5s | AQL  1.28 | v  2.05 m/s | vao  7340 | den  7189 | thoat  4006 | con  151 | tele   0 | ket 29.0 (max 1694s) | phat  6.55 | 931s | EVAL AWT   23.1s ket  4.8 diem 0.440
+ep  39 | AWT   16.1s | AQL  0.77 | v  2.57 m/s | vao  9237 | den  9155 | thoat  4961 | con   82 | tele   0 | ket  0.1 (max  115s) | phat  0.01 | 901s | EVAL AWT   21.3s ket  2.7 diem 0.305
+ep  40 | AWT   38.7s | AQL  1.05 | v  2.30 m/s | vao  8380 | den  8222 | thoat  4466 | con  158 | tele   0 | ket 12.3 (max  799s) | phat  2.77 | 948s | EVAL AWT   31.8s ket  9.6 diem 0.775
+ep  41 | AWT  113.3s | AQL  1.82 | v  1.65 m/s | vao  6061 | den  5888 | thoat  3217 | con  173 | tele   0 | ket 56.1 (max 2978s) | phat 11.59 | 953s | EVAL AWT   24.8s ket  4.5 diem 0.431
+ep  42 | AWT   46.6s | AQL  1.18 | v  2.19 m/s | vao  8199 | den  8071 | thoat  4415 | con  128 | tele   0 | ket 16.3 (max  949s) | phat  3.55 | 966s | EVAL AWT   37.6s ket  8.4 diem 0.743
+ep  43 | AWT   17.1s | AQL  0.80 | v  2.53 m/s | vao  9223 | den  9122 | thoat  4994 | con  101 | tele   0 | ket  0.1 (max  104s) | phat  0.01 | 979s | EVAL AWT   48.6s ket 14.1 diem 1.152
+ep  44 | AWT   93.8s | AQL  1.49 | v  1.84 m/s | vao  6787 | den  6633 | thoat  3659 | con  154 | tele   0 | ket 38.5 (max 2405s) | phat  9.37 | 938s | EVAL AWT   24.4s ket  2.5 diem 0.312
+ep  45 | AWT   18.7s | AQL  0.82 | v  2.52 m/s | vao  9348 | den  9252 | thoat  5090 | con   96 | tele   0 | ket  0.0 (max   80s) | phat  0.00 | 952s | EVAL AWT   38.5s ket 11.9 diem 0.952
+ep  46 | AWT   15.7s | AQL  0.75 | v  2.67 m/s | vao  9373 | den  9284 | thoat  5166 | con   89 | tele   0 | ket  0.1 (max   90s) | phat  0.01 | 1022s | EVAL AWT   59.0s ket 22.9 diem 1.733
+ep  47 | AWT   16.4s | AQL  0.76 | v  2.63 m/s | vao  9591 | den  9491 | thoat  5244 | con  100 | tele   0 | ket  0.0 (max   81s) | phat  0.00 | 1097s | EVAL AWT   77.3s ket 28.8 diem 2.199
+ep  48 | AWT   90.6s | AQL  1.48 | v  1.83 m/s | vao  6743 | den  6600 | thoat  3578 | con  143 | tele   0 | ket 33.4 (max 3060s) | phat 11.21 | 1495s | EVAL AWT   70.0s ket 27.8 diem 2.090
+ep  49 | AWT   15.8s | AQL  0.77 | v  2.66 m/s | vao  9417 | den  9323 | thoat  5143 | con   94 | tele   0 | ket  0.1 (max  111s) | phat  0.01 | 1436s | EVAL AWT   34.2s ket  9.3 diem 0.777
+ep  50 | AWT   15.9s | AQL  0.76 | v  2.64 m/s | vao  9581 | den  9497 | thoat  5233 | con   84 | tele   0 | ket  0.0 (max   94s) | phat  0.00 | 1446s | EVAL AWT   38.1s ket 12.0 diem 0.958
+ep  51 | AWT   16.4s | AQL  0.78 | v  2.62 m/s | vao  9386 | den  9303 | thoat  5154 | con   83 | tele   0 | ket  0.0 (max   77s) | phat  0.00 | 1493s | EVAL AWT   37.1s ket 10.6 diem 0.872
+ep  52 | AWT   16.3s | AQL  0.76 | v  2.66 m/s | vao  9592 | den  9487 | thoat  5192 | con  105 | tele   0 | ket  0.0 (max   75s) | phat  0.00 | 1160s | EVAL AWT   36.8s ket 11.9 diem 0.942
+ep  53 | AWT   16.4s | AQL  0.76 | v  2.62 m/s | vao  9571 | den  9470 | thoat  5249 | con  101 | tele   0 | ket  0.1 (max   97s) | phat  0.01 | 964s | EVAL AWT   42.2s ket 15.1 diem 1.166
+ep  54 | AWT   15.7s | AQL  0.75 | v  2.63 m/s | vao  9262 | den  9161 | thoat  4973 | con  101 | tele   0 | ket  0.1 (max   95s) | phat  0.02 | 3180s | EVAL AWT   55.2s ket 19.7 diem 1.521
+ep  55 | AWT   14.8s | AQL  0.71 | v  2.71 m/s | vao  9467 | den  9373 | thoat  5126 | con   94 | tele   0 | ket  0.0 (max   68s) | phat  0.00 | 1594s | EVAL AWT   45.8s ket 15.6 diem 1.219
+ep  56 | AWT   14.7s | AQL  0.73 | v  2.69 m/s | vao  9523 | den  9432 | thoat  5202 | con   91 | tele   0 | ket  0.0 (max   71s) | phat  0.00 | 1555s | EVAL AWT   80.7s ket 35.0 diem 2.583
+ep  57 | AWT   15.1s | AQL  0.73 | v  2.71 m/s | vao  9625 | den  9546 | thoat  5233 | con   79 | tele   0 | ket  0.0 (max   95s) | phat  0.01 | 1238s | EVAL AWT   35.0s ket 10.0 diem 0.823
+ep  58 | AWT   14.2s | AQL  0.71 | v  2.80 m/s | vao  9698 | den  9597 | thoat  5340 | con  101 | tele   0 | ket  0.0 (max   76s) | phat  0.00 | 1484s | EVAL AWT   37.2s ket 11.9 diem 0.947
+ep  59 | AWT   39.1s | AQL  1.09 | v  2.24 m/s | vao  8895 | den  8803 | thoat  4813 | con   92 | tele   0 | ket 11.0 (max  745s) | phat  2.72 | 1439s | EVAL AWT   75.7s ket 31.1 diem 2.326
+ep  60 | AWT   14.6s | AQL  0.71 | v  2.74 m/s | vao  9600 | den  9492 | thoat  5192 | con  108 | tele   0 | ket  0.1 (max  112s) | phat  0.02 | 1062s | EVAL AWT   40.5s ket 13.1 diem 1.040
+ep  61 | AWT  217.8s | AQL  2.48 | v  0.76 m/s | vao  2848 | den  2691 | thoat  1508 | con  157 | tele   0 | ket 98.1 (max 5899s) | phat 23.94 | 1275s | EVAL AWT   52.9s ket 20.5 diem 1.549
+ep  62 | AWT   16.6s | AQL  0.74 | v  2.68 m/s | vao  9717 | den  9619 | thoat  5284 | con   98 | tele   0 | ket  0.1 (max  123s) | phat  0.02 | 1296s | EVAL AWT   68.5s ket 28.2 diem 2.108
+ep  63 | AWT   16.3s | AQL  0.75 | v  2.67 m/s | vao  9333 | den  9264 | thoat  5170 | con   69 | tele   0 | ket  0.1 (max  121s) | phat  0.02 | 930s | EVAL AWT   38.9s ket 13.2 diem 1.031
+ep  64 | AWT   15.5s | AQL  0.73 | v  2.72 m/s | vao  9456 | den  9362 | thoat  5221 | con   94 | tele   0 | ket  0.0 (max   75s) | phat  0.00 | 1250s | EVAL AWT   26.4s ket  5.7 diem 0.511
+ep  65 | AWT  114.8s | AQL  1.58 | v  1.79 m/s | vao  6264 | den  6125 | thoat  3339 | con  139 | tele   0 | ket 48.9 (max 2999s) | phat 11.94 | 1531s | EVAL AWT   19.9s ket  2.3 diem 0.269
+ep  66 | AWT   14.9s | AQL  0.70 | v  2.72 m/s | vao  9361 | den  9298 | thoat  5069 | con   63 | tele   0 | ket  0.0 (max   75s) | phat  0.00 | 1527s | EVAL AWT   30.9s ket  9.0 diem 0.736
+ep  67 | AWT   15.6s | AQL  0.74 | v  2.71 m/s | vao  9596 | den  9491 | thoat  5305 | con  105 | tele   0 | ket  0.1 (max   96s) | phat  0.01 | 1491s | EVAL AWT   31.8s ket  6.8 diem 0.611
+ep  68 | AWT  131.3s | AQL  1.85 | v  1.71 m/s | vao  5880 | den  5702 | thoat  3162 | con  178 | tele   0 | ket 64.9 (max 3400s) | phat 13.52 | 1860s | EVAL AWT   85.2s ket 38.3 diem 2.806
+ep  69 | AWT   13.2s | AQL  0.65 | v  2.93 m/s | vao  9567 | den  9489 | thoat  5313 | con   78 | tele   0 | ket  0.0 (max   72s) | phat  0.00 | 1670s | EVAL AWT   56.3s ket 21.2 diem 1.614
+ep  70 | AWT   24.8s | AQL  0.87 | v  2.55 m/s | vao  9234 | den  9090 | thoat  4951 | con  144 | tele   0 | ket  6.0 (max  457s) | phat  1.46 | 1835s | EVAL AWT   69.4s ket 26.8 diem 2.033
+ep  71 | AWT   16.2s | AQL  0.76 | v  2.69 m/s | vao  9556 | den  9463 | thoat  5264 | con   93 | tele   0 | ket  0.2 (max  116s) | phat  0.04 | 7574s | EVAL AWT   63.6s ket 25.4 diem 1.909
+ep  72 | AWT  184.5s | AQL  2.70 | v  1.04 m/s | vao  3481 | den  3299 | thoat  1842 | con  182 | tele   0 | ket 87.0 (max 4908s) | phat 19.59 | 1708s | EVAL AWT   67.7s ket 25.6 diem 1.949
+ep  73 | AWT   51.9s | AQL  1.10 | v  2.34 m/s | vao  8182 | den  8013 | thoat  4423 | con  169 | tele   0 | ket 20.8 (max 1229s) | phat  4.54 | 1180s | EVAL AWT   73.8s ket 30.1 diem 2.253
+ep  74 | AWT   13.8s | AQL  0.70 | v  2.76 m/s | vao  9694 | den  9594 | thoat  5300 | con  100 | tele   0 | ket  0.0 (max   72s) | phat  0.00 | 1169s | EVAL AWT   99.1s ket 41.9 diem 3.109
+ep  75 | AWT   14.0s | AQL  0.70 | v  2.76 m/s | vao  9532 | den  9447 | thoat  5213 | con   85 | tele   0 | ket  0.1 (max   96s) | phat  0.01 | 968s | EVAL AWT   43.3s ket 12.4 diem 1.016
+ep  76 | AWT   13.8s | AQL  0.71 | v  2.75 m/s | vao  9611 | den  9526 | thoat  5232 | con   85 | tele   0 | ket  0.0 (max   72s) | phat  0.00 | 993s | EVAL AWT   47.6s ket 16.8 diem 1.301
+ep  77 | AWT   19.3s | AQL  0.79 | v  2.65 m/s | vao  9393 | den  9221 | thoat  5085 | con  172 | tele   0 | ket  3.6 (max  367s) | phat  0.83 | 1038s | EVAL AWT   69.0s ket 25.6 diem 1.960
+ep  78 | AWT   15.2s | AQL  0.72 | v  2.71 m/s | vao  9553 | den  9472 | thoat  5199 | con   81 | tele   0 | ket  0.0 (max   91s) | phat  0.01 | 1046s | EVAL AWT   55.2s ket 21.0 diem 1.599
+ep  79 | AWT   14.8s | AQL  0.75 | v  2.71 m/s | vao  9825 | den  9730 | thoat  5296 | con   95 | tele   0 | ket  0.0 (max   70s) | phat  0.00 | 5028s | EVAL AWT   50.7s ket 17.9 diem 1.385
+ep  80 | AWT   16.6s | AQL  0.78 | v  2.60 m/s | vao  9666 | den  9584 | thoat  5285 | con   82 | tele   0 | ket  0.1 (max   73s) | phat  0.01 | 1458s | EVAL AWT   32.7s ket  8.5 diem 0.718

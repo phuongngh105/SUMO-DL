@@ -1,0 +1,3 @@
+ep,train_AWT,train_AQL,train_speed,train_arrived,train_reward,train_stuck,train_pen,eval_AWT,eval_AQL,eval_speed,eval_departed,eval_arrived,eval_stuck,eval_pen,base_AWT,base_arrived,best_AWT,best_ep,is_best,weight,eval_score,best_score
+0,64.177,1.443,1.487,6264,-1152.195,8.95,1.594,83.361,1.531,1.998,7493.333,7348.667,36.264,7.758,22.731,10716.7,83.361,0,1,,155.99,155.99
+1,69.582,1.518,1.372,6016,-1242.953,9.188,1.722,33.059,0.917,2.463,9551.333,9454.333,4.789,5.171,22.731,10716.7,33.059,1,1,,20.8905,20.8905
